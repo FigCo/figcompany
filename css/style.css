@@ -11,6 +11,7 @@
 =========================================================== */
 html, body {
 	height: 100%;
+	overflow-x: hidden;
 }
 html, hmtl a{
 	width:100%;
@@ -105,8 +106,14 @@ hr{
 .text-green{
 	color:#1abc9c;
 }
-.text-30px{
+.text-45x{
+	font-size: 45px;
+}
+.text-50x{
 	font-size: 50px;
+}
+.line-height-20x{
+	line-height: 40px;
 }
 /* =======================================================
    1E.BACKGROUND-DESKTOP
@@ -128,6 +135,9 @@ hr{
 }
 .width-80p{
 	width:80%;
+}
+.width-95p{
+	width:95%;
 }
 .width-100p{
 	width: 100%
@@ -151,8 +161,11 @@ hr{
 	margin-top: 0;
 	margin-bottom: 0;
 }
+.margin-top-2p{
+	margin-top: 2%;
+}
 .margin-top-3p{
-	margin-top: 100px;
+	margin-top: 3%;
 }
 .margin-top-10p{
 	margin-top: 10%;
@@ -189,6 +202,8 @@ hr{
    2.BACKGROUND-DESKTOP
 =========================================================== */
 #work-page {
+	background-color: #000;
+	overflow: hidden;
 }
 #work-page .project-1 {
 	width:100%;
@@ -198,6 +213,21 @@ hr{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	 -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page .project-1:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 #work-page .project-2 {
 	width:100%;
@@ -207,6 +237,21 @@ hr{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page .project-2:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 #work-page .project-3 {
 	width:100%;
@@ -216,6 +261,21 @@ hr{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page .project-3:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
 }
 #work-page .project-4 {
 	width:100%;
@@ -225,5 +285,24 @@ hr{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page .project-4:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+.project-border-white{
+	border: 7px solid #fff;
+  padding: 28px 20px;
 }
 }

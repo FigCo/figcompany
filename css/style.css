@@ -25,6 +25,7 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	line-height:20px;
+	margin:0;
 }
 /* ========================================================
    0B.TYPOGRAPHY-DESKTOP
@@ -105,6 +106,15 @@ hr{
 .text-green{
 	color:#1abc9c;
 }
+.text-h2{
+	font-size: 24px;
+}
+.text-h3{
+	font-size: 20px;
+}
+.text-h4{
+	font-size: 16px;
+}
 .text-45x{
 	font-size: 45px;
 }
@@ -169,6 +179,9 @@ hr{
 .margin-top-3p{
 	margin-top: 3%;
 }
+.margin-top-6p{
+	margin-top: 6%;
+}
 .margin-top-10p{
 	margin-top: 10%;
 }
@@ -190,6 +203,33 @@ hr{
 .overflow-x-hidden{
 	overflow-x:hidden;
 }
+/* =======================================================
+   2.NAVIGATION-DESKTOP
+========================================================== */
+.navbar {
+	margin-bottom:0;
+	color:#FFF;
+	border-radius: 0px;
+}
+.nav{
+	width:99%;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.nav li{
+	margin-left:0.3%;
+	margin-right:0.3%;
+	width:19.4%;
+	overflow:hidden;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.navbar .nav > li > a {
+    color:  #FFF;
+}
+.navbar .nav > li > a:hover {
+    color:  #FFF;
+}
 /* ========================================================
    1A.BACKGROUND-DESKTOP
 =========================================================== */
@@ -206,6 +246,14 @@ hr{
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
+}
+.border-left-right-white{
+  border-left-color: rgb(229, 229, 229);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(229, 229, 229);
+border-right-style: solid;
+border-right-width: 2px;
 }
 /* ========================================================
    2.BACKGROUND-DESKTOP

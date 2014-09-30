@@ -111,20 +111,20 @@
       <!--end width-100p--></div>
     <!--end mission-page--></div>
     <div id="work-page">
-        <div class="project-1">
+        <div id="project-1">
           <div class="row">
             <div class="col-md-12">
               <h3 class="text-white text-50x margin-top-6p">Hub Group</h3>
             </div>
           </div>
         <!--end project-1--></div>
-        <div class="project-2">
+        <div id="project-2">
           <div class="row">
             <div class="col-md-12">
             </div>
           </div>
         <!--end project-1--></div>
-        <div class="project-3">
+        <div id="project-3">
           <div class="row width-95p">
             <div class="col-md-4 col-md-offset-8 margin-top-2p project-border-white">
                 <h3 class="text-white text-bold text-45x line-height-40x text-left">ITA</h3>
@@ -132,13 +132,13 @@
             </div>
           </div>
         <!--end project-1--></div>
-        <div class="project-4">
+        <div id="project-4">
          <div class="row">
             <div class="col-md-12">
             </div>
           </div>
         <!--end project-1--></div>
-        <div class="project-5">
+        <div id="project-5">
          <div class="row width-95p margin-center">
             <div class="col-md-12 margin-top-2p">
                 <h3 class="text-white text-35x text-center">The clients we keep are some rad folks.</h3>
@@ -311,5 +311,13 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/smoothscroll.js"></script>
     <script src="js/sidebar.js"></script>
+    <script src="js/jquery.backstretch.min.js"></script>
+    <script>
+    $('#project-1').backstretch("images/hub.jpg");
+    $('#project-2').backstretch("images/alarm.jpg");
+    $('#project-3').backstretch("images/brewton.png");
+    $('#project-4').backstretch("images/kohler.png");
+    $('#project-5').backstretch("images/clients.png");
+    </script>
   </body>
 </html>

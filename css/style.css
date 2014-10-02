@@ -82,6 +82,12 @@ hr{
 .mobile-margin-top-3p{
 	margin-top: 0;
 }
+.mobile-hidden{
+	display: block;
+}
+.desktop-hidden{
+	display: none;
+}
 /* ========================================================
    1A.FONTS-DESKTOP
 =========================================================== */

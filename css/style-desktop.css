@@ -1,0 +1,407 @@
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
+/* ========================================================
+   0A.BASIC_STYLES-DESKTOP
+=========================================================== */
+html, body {
+	height: 100%;
+}
+html, hmtl a{
+	width:100%;
+	font-size: 100%; 
+	-webkit-text-size-adjust: 100%; 
+	-ms-text-size-adjust: 100%;
+}
+body{
+	background-color:transparent;
+	color:#7F8289;
+	font-weight:300;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:1em;
+	line-height:20px;
+	margin:0;
+}
+/* ========================================================
+   0B.TYPOGRAPHY-DESKTOP
+=========================================================== */
+h1,h2,h3,h4,h5,h6,p,a,input, textarea,i, span{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:12px;
+	font-weight: 100; 
+	text-align:center;
+	/*color:#FFF;*/
+	color: #000;
+	text-decoration: none;
+}
+h1{
+	font-size:26px;
+	line-height: 28px;
+}
+h2{
+	font-size:24px;
+	line-height: 26px;
+}
+h3{
+	font-size:20px;
+	line-height: 22px;
+}
+h4{
+	font-size:16px;
+	line-height: 10px;
+}
+h5{
+	font-size:14px;
+	line-height: 8px;
+}
+h6{
+	font-size:12px;
+	line-height:6px;
+}
+p{
+	font-size:12px;
+}
+i{
+	font-size:20px;
+}
+a{
+	font-size:12px;
+}
+a:hover{
+	color:rgb(204,51,51);
+	text-decoration:none;
+	transition:all 0.5s ease-in-out;
+}
+hr{
+	margin: 12px auto;
+   height:2px;
+   width:80%;
+}
+/* ========================================================
+   1A.MOBILE STYLES ONLY
+=========================================================== */
+.mobile-margin-top-3p{
+	margin-top: 0;
+}
+.mobile-hidden{
+	display: block;
+}
+.desktop-hidden{
+	display: none;
+}
+/* ========================================================
+   1A.FONTS-DESKTOP
+=========================================================== */
+.text-normal{
+	font-weight: 300;
+}
+.text-bold{
+	font-weight: 700;
+}
+.text-left{
+	text-align: left;
+}
+.text-right{
+	text-align: right;
+}
+.text-center{
+	text-align: center;
+}
+.text-white{
+	color: #FFF;
+}
+.text-green{
+	color:#1abc9c;
+}
+.text-h2{
+	font-size: 24px;
+}
+.text-h3{
+	font-size: 20px;
+}
+.text-h4{
+	font-size: 16px;
+}
+.text-35x{
+	font-size: 35px;
+}
+.text-45x{
+	font-size: 45px;
+}
+.text-50x{
+	font-size: 50px;
+}
+.line-height-40x{
+	line-height: 40px;
+}
+.line-height-60x{
+	line-height: 60px;
+}
+/* =======================================================
+   1E.BACKGROUND-DESKTOP
+========================================================== */
+.bg-black{
+	background-color: #141414;
+}
+.bg-test{
+	background-color: #3df;
+}
+/* =======================================================
+   1E.PAGES-DESKTOP
+========================================================== */
+.width-20p{
+	width:20%;
+}
+.width-60p{
+	width:60%;
+}
+.width-70p{
+	width:70%;
+}
+.width-80p{
+	width:80%;
+}
+.width-95p{
+	width:95%;
+}
+.width-100p{
+	width: 100%
+}
+.min-height-100p{
+	min-height: 100%;
+}
+.height-100p{
+	height:100%;
+}
+.margin-left-4p{
+	margin-left: 4%;
+}
+.margin-bottom-3p{
+	margin-bottom: 3%;
+}
+.margin-bottom-7p{
+	margin-bottom: 7%;
+}
+.margin-top-bottom-0{
+	margin-top: 0;
+	margin-bottom: 0;
+}
+.margin-top-2p{
+	margin-top: 2%;
+}
+.margin-top-3p{
+	margin-top: 3%;
+}
+.margin-top-6p{
+	margin-top: 6%;
+}
+.margin-top-10p{
+	margin-top: 10%;
+}
+.margin-center{
+	margin-left:auto;
+	margin-right: auto;
+}
+.padding-top-25p{
+	padding-top: 28%;
+}
+.padding-top-bottom-3p{
+	padding-top: 3% ;
+	padding-bottom:3%;
+}
+.padding-top-bottom-7p{
+	padding-top: 7% ;
+	padding-bottom:7%;
+}
+.overflow-x-hidden{
+	overflow-x:hidden;
+}
+/* =======================================================
+   2.NAVIGATION-DESKTOP
+========================================================== */
+.navbar {
+	margin-bottom:0;
+	color:#FFF;
+	border-radius: 0px;
+}
+.nav{
+	padding-top: 0;
+	width:99%;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.nav li{
+	margin-left:0.3%;
+	margin-right:0.3%;
+	width:19.4%;
+	overflow:hidden;
+	color:#FFF;
+	/*background-color:#3FC;*/
+}
+.navbar .nav > li > a {
+    color:  #FFF;
+}
+.navbar .nav > li > a:hover {
+    color:  #FFF;
+}
+/* ========================================================
+   1A.BACKGROUND-DESKTOP
+=========================================================== */
+#home-page {
+	position: relative;
+	margin-top:0;
+	height: 100%;
+}
+#home-page .screen {
+	width:100%;
+	height:100%;
+	background: url(../images/bg280.jpg);
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.border-left-right-white{
+  border-left-color: rgb(229, 229, 229);
+border-left-style: solid;
+border-left-width: 2px;
+border-right-color: rgb(229, 229, 229);
+border-right-style: solid;
+border-right-width: 2px;
+}
+/* ========================================================
+   2.BACKGROUND-DESKTOP
+=========================================================== */
+#work-page {
+	background-color: #000;
+}
+#work-page #project-1 {
+	width:100%;
+	height: 250px;
+	background: url(../images/hub.jpg) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	 -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page #project-1:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-2 {
+	width:100%;
+	height: 250px;
+	background: url(../images/alarm.jpg) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page #project-2:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-3 {
+	width:100%;
+	height: 250px;
+	background: url(../images/brewton.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page #project-3:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-4 {
+	width:100%;
+	height: 250px;
+	background: url(../images/kohler.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page #project-4:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-5 {
+	width:100%;
+	height: 250px;
+	background: url(../images/clients.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+#work-page #project-5:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#project-border-white{
+	border: 7px solid #fff;
+  padding: 28px 20px;
+}
+#team-page{
+	overflow: hidden;
+}
+#footer-page{
+	overflow: hidden;
+}
+}

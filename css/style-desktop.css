@@ -127,8 +127,9 @@ hr{
 .text-45x{
 	font-size: 45px;
 }
-.text-50x{
-	font-size: 50px;
+.text-165x{
+	font-size: 165px;
+	line-height: 165px;
 }
 .line-height-40x{
 	line-height: 40px;
@@ -202,7 +203,7 @@ hr{
 	margin-right: auto;
 }
 .padding-top-25p{
-	padding-top: 28%;
+	padding-top: 35%;
 }
 .padding-top-bottom-3p{
 	padding-top: 3% ;

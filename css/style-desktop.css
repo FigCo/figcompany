@@ -109,8 +109,8 @@ hr{
 .text-white{
 	color: #FFF;
 }
-.text-green{
-	color:#1abc9c;
+.text-blue{/**/
+	color:#03a9ff;
 }
 .text-h2{
 	font-size: 24px;
@@ -141,7 +141,7 @@ hr{
    1E.BACKGROUND-DESKTOP
 ========================================================== */
 .bg-black{
-	background-color: #141414;
+	background-color: #000;
 }
 .bg-test{
 	background-color: #3df;
@@ -283,10 +283,10 @@ border-right-width: 2px;
 #work-page {
 	background-color: #000;
 }
-#work-page #project-1 {
+#work-page #project-0 {
 	width:100%;
-	height: 250px;
-	background: url(../images/hub.jpg) 50% 50% no-repeat;;
+	height: 485px;
+	background: url(../images/kohler.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -295,11 +295,36 @@ border-right-width: 2px;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
-  opacity: 0.45;
+/*  opacity: 0.45;
   filter: alpha(opacity=15);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
+}
+#work-page #project-0:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-1 {
+	width:100%;
+	height: 352px;
+	background: url(../images/brewton.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	 -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 1;
+/*  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 #work-page #project-1:hover {
 	 opacity: 100;
@@ -309,8 +334,8 @@ border-right-width: 2px;
 }
 #work-page #project-2 {
 	width:100%;
-	height: 250px;
-	background: url(../images/alarm.jpg) 50% 50% no-repeat;;
+	height: 600px;
+	background: url(../images/hub.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -319,11 +344,12 @@ border-right-width: 2px;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
-  opacity: 0.45;
+  opacity: 1;
+  /* opacity: 0.45;
   filter: alpha(opacity=15);
   -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  -moz-box-sizing: border-box;*/
+  /*box-sizing: border-box;*/
 }
 #work-page #project-2:hover {
 	 opacity: 100;
@@ -333,8 +359,8 @@ border-right-width: 2px;
 }
 #work-page #project-3 {
 	width:100%;
-	height: 250px;
-	background: url(../images/brewton.png) 50% 50% no-repeat;;
+	height: 352px;
+	background: url(../images/crains.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -343,11 +369,12 @@ border-right-width: 2px;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
-  opacity: 0.45;
+  opacity: 1;
+  /*opacity: 0.45;
   filter: alpha(opacity=15);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 #work-page #project-3:hover {
 	 opacity: 100;
@@ -357,8 +384,8 @@ border-right-width: 2px;
 }
 #work-page #project-4 {
 	width:100%;
-	height: 250px;
-	background: url(../images/kohler.png) 50% 50% no-repeat;;
+	height: 352px;
+	background: url(../images/alarm.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -367,11 +394,12 @@ border-right-width: 2px;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
-  opacity: 0.45;
+  opacity: 1;
+  /*opacity: 0.45;
   filter: alpha(opacity=15);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
 #work-page #project-4:hover {
 	 opacity: 100;
@@ -381,7 +409,57 @@ border-right-width: 2px;
 }
 #work-page #project-5 {
 	width:100%;
-	height: 250px;
+	height: 460px;
+	background: url(../images/ita.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 1;
+  /*opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+}
+#work-page #project-5:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-6 {
+	width:100%;
+	height: 352px;
+	background: url(../images/watercooler.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+	   -webkit-transition: 0.6s opacity;
+  -moz-transition: 0.6s opacity;
+  -o-transition: 0.6s opacity;
+  transition: 0.6s opacity;
+  opacity: 1;
+  /*opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
+}
+#work-page #project-6:hover {
+	 opacity: 100;
+  filter: alpha(opacity=10000);
+  opacity: 1;
+  filter: alpha(opacity=100);
+}
+#work-page #project-7 {
+	width:100%;
+	height: 251px;
 	background: url(../images/clients.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -391,13 +469,14 @@ border-right-width: 2px;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
-  opacity: 0.45;
+  opacity: 1;
+  /*opacity: 0.45;
   filter: alpha(opacity=15);
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
-  box-sizing: border-box;
+  box-sizing: border-box;*/
 }
-#work-page #project-5:hover {
+#work-page #project-7:hover {
 	 opacity: 100;
   filter: alpha(opacity=10000);
   opacity: 1;

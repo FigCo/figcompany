@@ -127,7 +127,7 @@ hr{
 .text-45x{
 	font-size: 45px;
 }
-.text-165x{
+.text-165x{/**/
 	font-size: 165px;
 	line-height: 165px;
 }
@@ -215,6 +215,14 @@ hr{
 }
 .overflow-x-hidden{
 	overflow-x:hidden;
+}
+.img-w65x{/**/
+	width: 65px;
+	height: 65px;
+}
+.img-w55x{/**/
+	width: 55px;
+	height: 65px;
 }
 /* =======================================================
    2.NAVIGATION-DESKTOP

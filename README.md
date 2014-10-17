@@ -3,7 +3,7 @@ figcompany
 
 Built with Bootstrap 3.0
 
-Minified CSS using Grunt -UnCSS and CSSMin
+Minified CSS using Grunt UnCSS and CSSMin
 
 To compile:
 

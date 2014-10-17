@@ -130,6 +130,9 @@ hr{
 .text-45x{
 	font-size: 45px;
 }
+.text-65x{
+	font-size: 50px;
+}
 .text-165x{/**/
 	font-size: 165px;
 	line-height: 165px;
@@ -144,7 +147,7 @@ hr{
    1E.BACKGROUND-DESKTOP
 ========================================================== */
 .bg-black{
-	background-color: #000;
+	background-color: #1b1b1b;
 }
 .bg-test{
 	background-color: #3df;
@@ -290,7 +293,7 @@ border-right-width: 2px;
    2.BACKGROUND-DESKTOP
 =========================================================== */
 #work-page {
-	background-color: #000;
+	background-color: #1b1b1b;
 }
 #work-page #project-0 {
 	width:100%;
@@ -380,7 +383,7 @@ border-right-width: 2px;
 }
 .project-2-text{
 	margin-left:4%;
-	margin-top: 45%;
+	margin-top: 38%;
 	font-size: 65px;
 	line-height: 65px;
 }
@@ -390,17 +393,16 @@ border-right-width: 2px;
 }
 .project-2b-text{
 	margin-left:4%;
-	margin-top: 57%;
+	margin-top: 51%;
 	font-size: 65px;
 	line-height: 65px;
 }
 #work-page #project-3 {
 	width:100%;
 	height:950px;
-	margin-top: -8%;
 	background: 
-   url(../images/hub.png) 0 0/100% 65% no-repeat,
-   url(../images/crains.png) 0 560px/100% 42% no-repeat;
+   url(../images/hub.png) 0 0/100% 62% no-repeat,
+   url(../images/crains.png) 0 530px/100% 45% no-repeat;
 	 
   opacity: 1;
   /*opacity: 0.45;
@@ -428,7 +430,7 @@ border-right-width: 2px;
 }
 #work-page #project-4 {
 	width:100%;
-	height: 402px;
+	height: 352px;
 	background: url(../images/alarm.png) no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
@@ -540,6 +542,7 @@ border-right-width: 2px;
 #work-page #project-7 {
 	width:100%;
 	height: 251px;
+	background-color: #1b1b1b;
 	background: url(../images/clients.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;

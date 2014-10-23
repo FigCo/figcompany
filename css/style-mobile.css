@@ -341,20 +341,31 @@ hr{
 }
 .project-2-text{
 	font-size: 35px;
-	margin:0 auto;
+	margin:0 auto;	
 	margin-top: 30%;
 	text-align: center;
 }
 .project-2a-text{
 	font-size: 18px;
 	margin:0 auto;
-	margin-top: 1%;
 	text-align: center;
+}
+.project-2c-text{
+	font-size: 35px;
+	margin-left:20%;
+	margin-top: 32%;
+	text-align: left;
+}
+.project-2ca-text{
+	font-size: 18px;
+	margin-left:20%;
+	margin-top: 1%;
+	text-align: left;
 }
 .project-2b-text{
 	font-size: 35px;
 	margin:0 auto;
-	margin-top: 33%;
+	margin-top: 39%;
 	text-align: center;
 }
 #work-page #project-3 {
@@ -412,14 +423,17 @@ hr{
 .project-5-text{
 	font-size: 35px;
 	margin:0 auto;
+
 	margin-top: 15%;
-	text-align: center;
+	margin-left:32%;
+	text-align: left;
 }
 .project-5a-text{
 	font-size: 18px;
 	margin:0 auto;
 	margin-top: 1%;
-	text-align: center;
+	margin-left:20%;
+	text-align: left;
 }
 #work-page #project-6a {
 	width:100%;

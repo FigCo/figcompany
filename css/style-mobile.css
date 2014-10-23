@@ -313,29 +313,49 @@ hr{
 	text-align: center;
 }
 #work-page #project-2 {
-	width:80%;
-	height: 290px;
+	width:100%;
+	height: 250px;
 	background: url(../images/m_hub.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
 }
+#work-page #project-2a {
+	width:100%;
+	height: 290px;
+	background: url(../images/m_mlb.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+#work-page #project-2b {
+	width:100%;
+	height: 290px;
+	background: url(../images/crains.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
 .project-2-text{
-	margin-left:4%;
-	margin-top: 38%;
-	font-size: 65px;
-	line-height: 65px;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 30%;
+	text-align: center;
 }
 .project-2a-text{
-	margin-left:4%;
-	font-size: 20px;
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
 }
 .project-2b-text{
-	margin-left:4%;
-	margin-top: 51%;
-	font-size: 65px;
-	line-height: 65px;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 33%;
+	text-align: center;
 }
 #work-page #project-3 {
 	width:100%;
@@ -345,135 +365,99 @@ hr{
    url(../images/crains.png) 0 530px/100% 45% no-repeat;
 	 
   opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
 }
 .project-3-text{
-	margin-top: 18%;
-	margin-left: 32%;
-	font-size: 65px;
-	line-height: 65px;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
 }
 .project-3a-text{
-	margin-left: 34%;
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
 }
 #work-page #project-4 {
 	width:100%;
-	height: 352px;
-	background: url(../images/alarm.png) no-repeat;;
+	height: 152px;
+	background: url(../images/alarm.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
 }
 .project-4-text{
-	margin-top: 7%;
-	margin-right: 12%;
-	font-size: 65px;
-	line-height: 65px;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 20%;
+	text-align: center;
 }
 .project-4a-text{
-	margin-right: 18%;
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
 }
 #work-page #project-5 {
 	width:100%;
-	height: 380px;
-	margin-top: -3%;
-	background: url(../images/ita.png) 50% 50% no-repeat;;
+	height: 280px;
+	margin-top:-10%;
+	background: url(../images/ita.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
 }
 .project-5-text{
+	font-size: 35px;
+	margin:0 auto;
 	margin-top: 15%;
-	margin-left: 10%;
-	font-size: 65px;
-	line-height: 65px;
+	text-align: center;
 }
 .project-5a-text{
-	margin-left: 7.5%;
-	font-size: 20px;
-	line-height: 20px;
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
 }
-#work-page #project-6 {
+#work-page #project-6a {
 	width:100%;
-	height: 352px;
-	background: url(../images/watercooler.png) 50% 50% no-repeat;;
+	height: 252px;
+	background: url(../images/m_worklife.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
+}
+#work-page #project-6b {
+	width:100%;
+	height: 252px;
+	background: url(../images/m_urlacher.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 .project-6-text{
-	color:#000;
-	margin-top: 5%;
-	margin-left: 47%;
-	font-size: 65px;
-	line-height: 65px;
+	color:#fff;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
 }
 .project-6a-text{
-	color:#000;
-	margin-left: 47%;
-	font-size: 20px;
-	line-height: 20px;
+	color:#fff;
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
 }
 #work-page #project-7 {
 	width:100%;
 	height: 251px;
 	background-color: #1b1b1b;
-	background: url(../images/clients.png) 50% 50% no-repeat;;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
+	background: url(../images/clients.png) 10% 10% no-repeat;;
 }
 #project-border-white{
 	border: 7px solid #fff;

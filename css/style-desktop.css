@@ -4,7 +4,9 @@
    0A.BASIC_STYLES-DESKTOP
 =========================================================== */
 html, body {
-	height: 100%;
+	height: auto;
+	overflow-x:hidden;
+
 }
 html, hmtl a{
 	width:100%;
@@ -190,6 +192,9 @@ hr{
 }
 .margin-bottom-7p{
 	margin-bottom: 7%;
+}
+.margin-bottom-20p{
+	margin-bottom: 23%;
 }
 .margin-top-bottom-0{
 	margin-top: 0;
@@ -438,7 +443,7 @@ border-right-width: 2px;
 	width:100%;
 	height: 251px;
 	background-color: #1b1b1b;
-	background: url(../images/clients.png) 50% 50% no-repeat;;
+	background: url(../images/fig_clients.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;

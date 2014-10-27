@@ -2,8 +2,12 @@
    0A.BASIC_STYLES-MOBILE
 =========================================================== */
 html, body {
+	height: 100%;
 	overflow-x:hidden;
-	margin-bottom: 0;
+	overflow-x:hidden;
+overflow-y:scroll;
+-webkit-overflow-scrolling: touch; 
+
 }
 html, hmtl a{
 	width:100%;
@@ -18,8 +22,8 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	line-height:20px;
-	margin:0;
-
+	overflow-y:scroll;
+-webkit-overflow-scrolling: touch;
 }
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
@@ -205,14 +209,14 @@ hr{
 	margin-top: 10%;
 }
 .margin-bottom-20p{
-	margin-bottom: 13%;
+	margin-bottom: 23%;
 }
 .margin-center{
 	margin-left:auto;
 	margin-right: auto;
 }
 .padding-top-25p{
-	padding-top: 45%;
+	padding-top: 47%;
 }
 .padding-top-bottom-3p{
 	padding-top: 3% ;
@@ -262,7 +266,7 @@ hr{
 #home-page .screen {
 	width:100%;
 	height:100%;
-	background: url(../images/bg1980.jpg) 50% 50%;
+	background: url(../images/bg750.jpg) 50% 50%;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;

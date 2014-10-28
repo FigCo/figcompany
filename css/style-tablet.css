@@ -1,10 +1,12 @@
-/* Tablet Layout: 481px to 768px. Inherits styles from: Mobile Layout. */
-@media only screen and (min-width: 481px) {
+/* Desktop Layout: 769px to a max of 1232px.  Inherits styles from: Mobile Layout and Tablet Layout. */
+@media only screen and (min-width: 769px) {
 /* ========================================================
-   0A.BASIC_STYLES-TABLET
+   0A.BASIC_STYLES-DESKTOP
 =========================================================== */
 html, body {
-	height: 100%;
+	height: auto;
+	overflow-x:hidden;
+
 }
 html, hmtl a{
 	width:100%;
@@ -22,7 +24,7 @@ body{
 	margin:0;
 }
 /* ========================================================
-   0B.TYPOGRAPHY-TABLET
+   0B.TYPOGRAPHY-DESKTOP
 =========================================================== */
 h1,h2,h3,h4,h5,h6,p,a,input, textarea,i, span{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -67,9 +69,9 @@ a{
 	font-size:12px;
 }
 a:hover{
-	color:rgb(204,51,51);
+	color:#03a9ff;
 	text-decoration:none;
-	transition:all 0.5s ease-in-out;
+	transition:all 0.2s ease-in-out;
 }
 hr{
 	margin: 12px auto;
@@ -82,8 +84,14 @@ hr{
 .mobile-margin-top-3p{
 	margin-top: 0;
 }
+.mobile-hidden{
+	display: block;
+}
+.desktop-hidden{
+	display: none;
+}
 /* ========================================================
-   1A.FONTS-TABLET
+   1A.FONTS-DESKTOP
 =========================================================== */
 .text-normal{
 	font-weight: 300;
@@ -103,8 +111,8 @@ hr{
 .text-white{
 	color: #FFF;
 }
-.text-green{
-	color:#1abc9c;
+.text-blue{/**/
+	color:#03a9ff;
 }
 .text-h2{
 	font-size: 24px;
@@ -115,6 +123,9 @@ hr{
 .text-h4{
 	font-size: 16px;
 }
+.text-30x{
+	font-size: 30px;
+}
 .text-35x{
 	font-size: 35px;
 }
@@ -124,6 +135,10 @@ hr{
 .text-50x{
 	font-size: 50px;
 }
+.text-165x{/**/
+	font-size: 165px;
+	line-height: 165px;
+}
 .line-height-40x{
 	line-height: 40px;
 }
@@ -131,16 +146,16 @@ hr{
 	line-height: 60px;
 }
 /* =======================================================
-   1E.BACKGROUND-TABLET
+   1E.BACKGROUND-DESKTOP
 ========================================================== */
 .bg-black{
-	background-color: #141414;
+	background-color: #1b1b1b;
 }
 .bg-test{
 	background-color: #3df;
 }
 /* =======================================================
-   1E.PAGES-TABLET
+   1E.PAGES-DESKTOP
 ========================================================== */
 .width-20p{
 	width:20%;
@@ -169,11 +184,17 @@ hr{
 .margin-left-4p{
 	margin-left: 4%;
 }
+.margin-left-8p{
+	margin-left: 8%;
+}
 .margin-bottom-3p{
 	margin-bottom: 3%;
 }
 .margin-bottom-7p{
 	margin-bottom: 7%;
+}
+.margin-bottom-20p{
+	margin-bottom: 23%;
 }
 .margin-top-bottom-0{
 	margin-top: 0;
@@ -191,12 +212,15 @@ hr{
 .margin-top-10p{
 	margin-top: 10%;
 }
+.margin-top-20p{
+	margin-top: 13%;
+}
 .margin-center{
 	margin-left:auto;
 	margin-right: auto;
 }
 .padding-top-25p{
-	padding-top: 25%;
+	padding-top: 30%;
 }
 .padding-top-bottom-3p{
 	padding-top: 3% ;
@@ -209,8 +233,16 @@ hr{
 .overflow-x-hidden{
 	overflow-x:hidden;
 }
+.img-w65x{/**/
+	width: 65px;
+	height: 65px;
+}
+.img-w55x{/**/
+	width: 55px;
+	height: 65px;
+}
 /* =======================================================
-   2.NAVIGATION-TABLET
+   2.NAVIGATION-DESKTOP
 ========================================================== */
 .navbar {
 	margin-bottom:0;
@@ -218,12 +250,15 @@ hr{
 	border-radius: 0px;
 }
 .nav{
+	padding-top: 0;
 	width:99%;
 	color:#FFF;
 	/*background-color:#3FC;*/
 }
 .nav li{
-	width:100%;
+	margin-left:0.3%;
+	margin-right:0.3%;
+	width:19.4%;
 	overflow:hidden;
 	color:#FFF;
 	/*background-color:#3FC;*/
@@ -235,7 +270,7 @@ hr{
     color:  #FFF;
 }
 /* ========================================================
-   1A.BACKGROUND-TABLET
+   1A.BACKGROUND-DESKTOP
 =========================================================== */
 #home-page {
 	position: relative;
@@ -260,130 +295,159 @@ border-right-style: solid;
 border-right-width: 2px;
 }
 /* ========================================================
-   2.BACKGROUND-TABLET
+   2.BACKGROUND-DESKTOP
 =========================================================== */
 #work-page {
-	background-color: #000;
+	background-color: #1b1b1b;
+}
+#work-page #project-0 {
+	width:100%;
+	height: 519px;
+	background: url(../images/kohler.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+.project-0-text{
+	font-size: 75px;
+	margin-top: 20%;
+	margin-left: 50%;
 }
 #work-page #project-1 {
 	width:100%;
-	height: 250px;
-	background: url(../images/hub.jpg) 50% 50% no-repeat;;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	 -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#work-page #project-1:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-#work-page #project-2 {
-	width:100%;
-	height: 250px;
-	background: url(../images/alarm.jpg) 50% 50% no-repeat;;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-#work-page #project-2:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
-}
-#work-page #project-3 {
-	width:100%;
-	height: 250px;
+	height: 430px;
+	margin-top:-1.8%;
 	background: url(../images/brewton.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
-#work-page #project-3:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
+.project-1-text{
+	font-size: 75px;
+	margin-top: 10%;
+	line-height: 75px;
+}
+#work-page #project-2 {
+	width:100%;
+	height: 490px;
+	background: url(../images/hub.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.project-2-text{
+	margin-left:4%;
+	margin-top: 38%;
+	font-size: 65px;
+	line-height: 65px;
+}
+.project-2a-text{
+	margin-left:4%;
+	margin-top: 2%;
+	font-size: 20px;
+}
+.project-2b-text{
+	margin-left:4%;
+	margin-top: 51%;
+	font-size: 65px;
+	line-height: 65px;
+}
+#work-page #project-3 {
+	width:100%;
+	height:950px;
+	background: 
+   url(../images/hub.png) 0 0/100% 62% no-repeat,
+   url(../images/crains.png) 0 530px/100% 45% no-repeat;
+	 
   opacity: 1;
-  filter: alpha(opacity=100);
+}
+.project-3-text{
+	margin-top: 16%;
+	margin-left: 32%;
+	font-size: 65px;
+	line-height: 65px;
+}
+.project-3a-text{
+	margin-top: 0;
+	margin-left: 34%;
+	font-size: 20px;
+	line-height: 20px;
 }
 #work-page #project-4 {
 	width:100%;
-	height: 250px;
-	background: url(../images/kohler.png) 50% 50% no-repeat;;
+	height: 352px;
+	background: url(../images/alarm.png) no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
-#work-page #project-4:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+.project-4-text{
+	margin-top: 7%;
+	margin-right: 12%;
+	font-size: 65px;
+	line-height: 65px;
+}
+.project-4a-text{
+	margin-right: 18%;
+	font-size: 20px;
+	line-height: 20px;
 }
 #work-page #project-5 {
 	width:100%;
-	height: 250px;
-	background: url(../images/clients.png) 50% 50% no-repeat;;
+	height: 380px;
+	margin-top: -3%;
+	background: url(../images/ita.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
 }
-#work-page #project-5:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+.project-5-text{
+	margin-top: 15%;
+	margin-left: 10%;
+	font-size: 65px;
+	line-height: 65px;
+}
+.project-5a-text{
+	margin-left: 7.5%;
+	font-size: 20px;
+	line-height: 20px;
+}
+#work-page #project-6 {
+	width:100%;
+	height: 352px;
+	background: url(../images/watercooler.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.project-6-text{
+	color:#000;
+	margin-top: 5%;
+	margin-left: 47%;
+	font-size: 65px;
+	line-height: 65px;
+}
+.project-6a-text{
+	color:#000;
+	margin-left: 47%;
+	font-size: 20px;
+	line-height: 20px;
+}
+#work-page #project-7 {
+	width:100%;
+	height: 251px;
+	background-color: #1b1b1b;
+	background: url(../images/fig_clients.png) 50% 50% no-repeat;;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
 }
 #project-border-white{
 	border: 7px solid #fff;

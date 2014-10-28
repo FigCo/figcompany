@@ -3,6 +3,11 @@
 =========================================================== */
 html, body {
 	height: 100%;
+	overflow-x:hidden;
+	overflow-x:hidden;
+overflow-y:scroll;
+-webkit-overflow-scrolling: touch; 
+
 }
 html, hmtl a{
 	width:100%;
@@ -17,7 +22,8 @@ body{
 	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size:1em;
 	line-height:20px;
-	margin:0;
+	overflow-y:scroll;
+-webkit-overflow-scrolling: touch;
 }
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
@@ -101,8 +107,8 @@ hr{
 .text-white{
 	color: #FFF;
 }
-.text-green{
-	color:#1abc9c;
+.text-blue{
+	color:#03a9ff;
 }
 .text-h2{
 	font-size: 20px;
@@ -114,13 +120,20 @@ hr{
 	font-size: 15px;
 }
 .text-35x{
-	font-size: 15px;
+	font-size: 33px;
 }
 .text-45x{
 	font-size: 15px;
 }
 .text-50x{
+	font-size: 45px;
+}
+.text-30x{
 	font-size: 30px;
+}
+.text-165x{/**/
+	font-size: 60px;
+	line-height: 60px;
 }
 .line-height-40x{
 	line-height: 20px;
@@ -132,7 +145,7 @@ hr{
    1E.BACKGROUND-MOBILE
 ========================================================== */
 .bg-black{
-	background-color: #141414;
+	background-color: #1b1b1b;
 }
 .bg-test{
 	background-color: #3df;
@@ -167,6 +180,9 @@ hr{
 .margin-left-4p{
 	margin-left: 4%;
 }
+.margin-left-8p{
+	margin-left: 12%;
+}
 .margin-bottom-3p{
 	margin-bottom: 3%;
 }
@@ -189,20 +205,26 @@ hr{
 .margin-top-10p{
 	margin-top: 10%;
 }
+.margin-top-20p{
+	margin-top: 10%;
+}
+.margin-bottom-20p{
+	margin-bottom: 23%;
+}
 .margin-center{
 	margin-left:auto;
 	margin-right: auto;
 }
 .padding-top-25p{
-	padding-top: 48%;
+	padding-top: 47%;
 }
 .padding-top-bottom-3p{
 	padding-top: 3% ;
 	padding-bottom:3%;
 }
 .padding-top-bottom-7p{
-	padding-top: 7% ;
-	padding-bottom:7%;
+	padding-top: 10% ;
+	padding-bottom:10%;
 }
 .overflow-x-hidden{
 	overflow-x:hidden;
@@ -244,7 +266,7 @@ hr{
 #home-page .screen {
 	width:100%;
 	height:100%;
-	background: url(../images/bg500.jpg) 50% 50%;
+	background: url(../images/bg750.jpg) 50% 50%;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
@@ -256,99 +278,209 @@ hr{
    2.BACKGROUND-MOBILE
 =========================================================== */
 #work-page {
-	background-color: #000;
+	background-color: #1b1b1b;
 }
-#work-page #project-1 {
+#work-page #project-0 {
 	width:100%;
-	height: 25%;
-	background: url(../images/hub.jpg) 50% 50% no-repeat;;
-	  -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
+	height: 209px;
+	background: url(../images/kohler.png) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
 	 -webkit-transition: 0.6s opacity;
   -moz-transition: 0.6s opacity;
   -o-transition: 0.6s opacity;
   transition: 0.6s opacity;
+/*  opacity: 0.45;
+  filter: alpha(opacity=15);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;*/
 }
-#work-page #project-1:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+.project-0-text{
+	margin-top: 30%;
+	font-size: 35px;
+	margin-left:auto;
+	margin-right: auto;
+	text-align: center;
+}
+#work-page #project-1 {
+	width:100%;
+	height: 230px;
+	margin-top:-1.8%;
+	background: url(../images/brewton.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.project-1-text{
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
 }
 #work-page #project-2 {
 	width:100%;
-	height: 45%;
-	background: url(../images/alarm.jpg) 50% 50% no-repeat;;
+	height: 250px;
+	background: url(../images/m_hub.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
 }
-#work-page #project-2:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+#work-page #project-2a {
+	width:100%;
+	height: 290px;
+	background: url(../images/m_mlb.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+#work-page #project-2b {
+	width:100%;
+	height: 290px;
+	background: url(../images/crains.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.project-2-text{
+	font-size: 35px;
+	margin:0 auto;	
+	margin-top: 30%;
+	text-align: center;
+}
+.project-2a-text{
+	font-size: 18px;
+	margin:0 auto;
+	text-align: center;
+}
+.project-2c-text{
+	font-size: 35px;
+	margin-left:20%;
+	margin-top: 32%;
+	text-align: left;
+}
+.project-2ca-text{
+	font-size: 18px;
+	margin-left:20%;
+	margin-top: 1%;
+	text-align: left;
+}
+.project-2b-text{
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 39%;
+	text-align: center;
 }
 #work-page #project-3 {
 	width:100%;
-	height: 45%;
-	background: url(../images/brewton.png) 50% 50% no-repeat;;
-	 -webkit-background-size: cover;
-	  -moz-background-size: cover;
-	  -o-background-size: cover;
-	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-}
-#work-page #project-3:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
+	height:950px;
+	background: 
+   url(../images/hub.png) 0 0/100% 62% no-repeat,
+   url(../images/crains.png) 0 530px/100% 45% no-repeat;
+	 
   opacity: 1;
-  filter: alpha(opacity=100);
+}
+.project-3-text{
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
+}
+.project-3a-text{
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
 }
 #work-page #project-4 {
 	width:100%;
-	height: 45%;
-	background: url(../images/kohler.png) 50% 50% no-repeat;;
+	height: 152px;
+	background: url(../images/alarm.png) no-repeat center center;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
 }
-#work-page #project-4:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+.project-4-text{
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 20%;
+	text-align: center;
+}
+.project-4a-text{
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
 }
 #work-page #project-5 {
 	width:100%;
-	height: 25%;
-	background: url(../images/clients.png) 50% 50% no-repeat;;
-	 -webkit-background-size: cover;
+	height: 280px;
+	margin-top:-10%;
+	background: url(../images/ita.png) no-repeat center center;
+	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-
 }
-#work-page #project-5:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
+.project-5-text{
+	font-size: 35px;
+	margin:0 auto;
+
+	margin-top: 15%;
+	margin-left:32%;
+	text-align: left;
+}
+.project-5a-text{
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	margin-left:20%;
+	text-align: left;
+}
+#work-page #project-6a {
+	width:100%;
+	height: 252px;
+	background: url(../images/m_worklife.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+#work-page #project-6b {
+	width:100%;
+	height: 252px;
+	background: url(../images/m_urlacher.png) no-repeat center center;
+	  -webkit-background-size: cover;
+	  -moz-background-size: cover;
+	  -o-background-size: cover;
+	  background-size: cover;
+}
+.project-6-text{
+	color:#fff;
+	font-size: 35px;
+	margin:0 auto;
+	margin-top: 25%;
+	text-align: center;
+}
+.project-6a-text{
+	color:#fff;
+	font-size: 18px;
+	margin:0 auto;
+	margin-top: 1%;
+	text-align: center;
+}
+#work-page #project-7 {
+	width:100%;
+	height: 301px;
+	background-color: #1b1b1b;
+	background: url(../images/clients_m.png) 0 0/100% 92% no-repeat;;
 }
 #project-border-white{
 	border: 7px solid #fff;

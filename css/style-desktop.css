@@ -4,7 +4,9 @@
    0A.BASIC_STYLES-DESKTOP
 =========================================================== */
 html, body {
-	height: 100%;
+	height: auto;
+	overflow-x:hidden;
+
 }
 html, hmtl a{
 	width:100%;
@@ -191,6 +193,9 @@ hr{
 .margin-bottom-7p{
 	margin-bottom: 7%;
 }
+.margin-bottom-20p{
+	margin-bottom: 23%;
+}
 .margin-top-bottom-0{
 	margin-top: 0;
 	margin-bottom: 0;
@@ -303,26 +308,11 @@ border-right-width: 2px;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-	 -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-/*  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
 }
 .project-0-text{
 	font-size: 75px;
 	margin-top: 20%;
 	margin-left: 50%;
-}
-#work-page #project-0:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 #work-page #project-1 {
 	width:100%;
@@ -333,22 +323,6 @@ border-right-width: 2px;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	 -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-/*  opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-1:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-1-text{
 	font-size: 75px;
@@ -363,23 +337,6 @@ border-right-width: 2px;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  z-index: 95;
-  /* opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;*/
-  /*box-sizing: border-box;*/
-}
-#work-page #project-2:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-2-text{
 	margin-left:4%;
@@ -389,6 +346,7 @@ border-right-width: 2px;
 }
 .project-2a-text{
 	margin-left:4%;
+	margin-top: 2%;
 	font-size: 20px;
 }
 .project-2b-text{
@@ -405,25 +363,15 @@ border-right-width: 2px;
    url(../images/crains.png) 0 530px/100% 45% no-repeat;
 	 
   opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-3:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-3-text{
-	margin-top: 18%;
+	margin-top: 16%;
 	margin-left: 32%;
 	font-size: 65px;
 	line-height: 65px;
 }
 .project-3a-text{
+	margin-top: 0;
 	margin-left: 34%;
 	font-size: 20px;
 	line-height: 20px;
@@ -436,22 +384,6 @@ border-right-width: 2px;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-4:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-4-text{
 	margin-top: 7%;
@@ -473,22 +405,6 @@ border-right-width: 2px;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-5:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-5-text{
 	margin-top: 15%;
@@ -509,22 +425,6 @@ border-right-width: 2px;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-6:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 .project-6-text{
 	color:#000;
@@ -543,27 +443,11 @@ border-right-width: 2px;
 	width:100%;
 	height: 251px;
 	background-color: #1b1b1b;
-	background: url(../images/clients.png) 50% 50% no-repeat;;
+	background: url(../images/fig_clients.png) 50% 50% no-repeat;;
 	  -webkit-background-size: cover;
 	  -moz-background-size: cover;
 	  -o-background-size: cover;
 	  background-size: cover;
-	   -webkit-transition: 0.6s opacity;
-  -moz-transition: 0.6s opacity;
-  -o-transition: 0.6s opacity;
-  transition: 0.6s opacity;
-  opacity: 1;
-  /*opacity: 0.45;
-  filter: alpha(opacity=15);
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;*/
-}
-#work-page #project-7:hover {
-	 opacity: 100;
-  filter: alpha(opacity=10000);
-  opacity: 1;
-  filter: alpha(opacity=100);
 }
 #project-border-white{
 	border: 7px solid #fff;

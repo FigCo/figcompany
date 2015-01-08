@@ -23,7 +23,7 @@ body{
 	font-size:1em;
 	line-height:20px;
 	overflow-y:scroll;
--webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch;
 }
 /* ========================================================
    0B.TYPOGRAPHY-MOBILE
@@ -38,7 +38,7 @@ h1,h2,h3,h4,h5,h6,p,a,input, textarea,i, span{
 	text-decoration: none;
 }
 h1{
-	font-size:23px;
+	font-size:45px;
 }
 h2{
 	font-size:20px;
@@ -82,6 +82,10 @@ hr{
 }
 .mobile-margin-bottom-12p{
 	margin-bottom: 15%;
+}
+.mobile-padding-leftright-25p{
+	margin-left: 10%;
+	margin-right:10%;
 }
 .desktop-margin-bottom-7p{
 	margin-bottom:0;
@@ -133,7 +137,7 @@ hr{
 	font-size: 15px;
 }
 .text-50x{
-	font-size: 45px;
+	font-size: 30px;
 }
 .text-30x{
 	font-size: 30px;

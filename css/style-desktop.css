@@ -84,6 +84,10 @@ hr{
 .mobile-margin-top-3p{
 	margin-top: 0;
 }
+.mobile-padding-leftright-25p{
+	margin-left: 0;
+	margin-right:0;
+}
 .mobile-margin-bottom-12p{
 	margin-bottom: 0;
 }

@@ -80,12 +80,19 @@ hr{
 .mobile-margin-top-3p{
 	margin-top: 20%;
 }
+.mobile-margin-bottom-12p{
+	margin-bottom: 15%;
+}
+.desktop-margin-bottom-7p{
+	margin-bottom:0;
+}
 .mobile-hidden{
 	display: none;
 }
 .desktop-hidden{
 	display: block;
 }
+
 /* ========================================================
    1A.FONTS-MOBILE
 =========================================================== */

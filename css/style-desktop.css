@@ -84,6 +84,12 @@ hr{
 .mobile-margin-top-3p{
 	margin-top: 0;
 }
+.mobile-margin-bottom-12p{
+	margin-bottom: 0;
+}
+.desktop-margin-bottom-7p{
+	margin-bottom: 7%;
+}
 .mobile-hidden{
 	display: block;
 }

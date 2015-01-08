@@ -65,7 +65,7 @@ a{
 	font-size:14px;
 }
 a:hover{
-	color:rgb(204,51,51);
+	color:#03a9ff;
 	text-decoration:none;
 	transition:all 0.5s ease-in-out;
 }
